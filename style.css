@@ -1,21 +1,23 @@
-body {
-  margin: 0 auto;
-}
-
 .extra {
-  margin: 0 30%;
+  display: flex;
+  flex-direction: column;
+  background-color: pink;
+  width: 15%;
+  margin: 0 auto;
 }
 
 .main ul {
   display: flex;
   border-bottom: 1px solid black;
   padding: 0;
+  align-items: center;
 }
 
 .main li {
   margin-bottom: 2%;
   list-style: none;
   padding-left: 0;
+  align-items: center;
 }
 
 h1 {
@@ -24,7 +26,7 @@ h1 {
 
 form {
   width: 15%;
-  margin: 0 30%;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   gap: 10%;
