@@ -1,7 +1,6 @@
 .extra {
   display: flex;
   flex-direction: column;
-  background-color: pink;
   width: 15%;
   margin: 0 auto;
 }

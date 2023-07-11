@@ -8,12 +8,14 @@ const main = document.createElement('div');
 main.className = 'main';
 
 function add() {
-  const book = {
-    title: document.querySelector('.title').value,
-    author: document.querySelector('.author').value,
-  };
-  totalBooks.push(book);
-  localStorage.setItem('book', JSON.stringify(totalBooks));
+  if (document.querySelector('.title').value !== '' && document.querySelector('.author').value !== '') {
+    const book = {
+      title: document.querySelector('.title').value,
+      author: document.querySelector('.author').value,
+    };
+    totalBooks.push(book);
+    localStorage.setItem('book', JSON.stringify(totalBooks));
+  }
 }
 
 function showBook() {
