@@ -56,11 +56,9 @@
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-cd C:\Users\DELL\Desktop\Git
+- Navigate to the location of the folder in your machine:
 
-  git clone https://github.com/MayPyone/Awesome-books.git
-  
-  cd Awesomebook
+**`you@your-Pc-name:~$ cd desktop`**
 
 ### Prerequisites
 
@@ -72,12 +70,9 @@ Any popular web browser app, like Chrome, Firefox,etc.
 
 Clone this repository to your desired folder:
 
-  cd C:\Users\DELL\Desktop\Git
-  
-  git clone https://github.com/MayPyone/Awesome-books.git
-  
-  cd Awesomebook
+  - Navigate to the location of the folder in your machine:
 
+**`you@your-Pc-name:~$ cd desktop`**
 
 ### Install
 
