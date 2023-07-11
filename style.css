@@ -1,20 +1,21 @@
 body {
-  margin:0 auto;
+  margin: 0 auto;
 }
 
 .extra {
   margin: 0 30%;
 }
-.main ul{
+
+.main ul {
   display: flex;
   border-bottom: 1px solid black;
   padding: 0;
 }
 
-.main li{
+.main li {
   margin-bottom: 2%;
   list-style: none;
-  padding-left: 5% 0;
+  padding-left: 0;
 }
 
 h1 {
