@@ -8,7 +8,7 @@ const main = document.createElement('div');
 main.className = 'main';
 
 function add() {
-  if (document.querySelector('.title').value !== '' && document.querySelector('.author').value !== '') {
+  if (document.querySelector('.title').value !== '' || document.querySelector('.author').value !== '') {
     const book = {
       title: document.querySelector('.title').value,
       author: document.querySelector('.author').value,
