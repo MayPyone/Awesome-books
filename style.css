@@ -1,0 +1,30 @@
+body {
+  margin:0 auto;
+}
+
+.extra {
+  margin: 0 30%;
+}
+.main ul{
+  display: flex;
+  border-bottom: 1px solid black;
+  padding: 0;
+}
+
+.main li{
+  margin-bottom: 2%;
+  list-style: none;
+  padding-left: 5% 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  width: 15%;
+  margin: 0 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 10%;
+}
