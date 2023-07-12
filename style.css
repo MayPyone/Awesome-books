@@ -1,0 +1,32 @@
+.extra {
+  display: flex;
+  flex-direction: column;
+  width: 15%;
+  margin: 0 auto;
+}
+
+.main ul {
+  display: flex;
+  border-bottom: 1px solid black;
+  padding: 0;
+  align-items: center;
+}
+
+.main li {
+  margin-bottom: 2%;
+  list-style: none;
+  padding-left: 0;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  width: 15%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10%;
+}
