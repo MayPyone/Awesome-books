@@ -6,11 +6,12 @@ nav {
   display: flex;
   justify-content: space-between;
   border: 1px solid black;
-  padding: 0 4%;
+  padding: 0 1%;
   padding-right: 6%;
-  margin: 4%;
+  margin: 2%;
   align-items: center;
-  font-size: 22px;
+  font-size: 29px;
+  font-weight: 400;
 }
 
 nav ul {
@@ -18,9 +19,14 @@ nav ul {
   display: flex;
 }
 
+#myadd {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+
 nav li {
   list-style-type: none;
-  margin-right: 10%;
+  padding: 0 6%;
 }
 
 nav li a {
